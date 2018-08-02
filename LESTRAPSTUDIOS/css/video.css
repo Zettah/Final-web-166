@@ -1,0 +1,233 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  background-color: grey;
+    width: 0 auto;
+    font-family: 'Gaegu', cursive;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1 {
+  font-family: 'Gaegu', cursive;
+  color: lightgrey;
+}
+.wrapper {
+margin: 0 auto;
+width: 1000px;
+}
+
+video {
+width: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Fixed navifation begins here*/
+#nav {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  border-bottom: 10px black solid;
+  text-align: center;
+  z-index: 1000;
+}
+/*padding on the navigation (styling )*/
+#navigation {
+  list-style-type: none;
+  width: 1024px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+li {
+  display: inline;
+  padding: 0 0 0 20px;
+}
+/*font decoration*/
+#nav a {
+  font-family: 'Gaegu', cursive;
+  text-decoration: none;
+  color: #ededed;
+  /*cursor hovering over the item will change color*/
+}
+#nav a: hover {color: #bdbdbd;}
+/*Top  banner*/
+.main-banner {
+  display: flex;
+  font-family: 'Gaegu', cursive;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/photo04.jpg");
+  background-size: cover;
+ background-position: top;
+ width: 100%;
+ height: 600px;
+margin-bottom: 0px;
+}
+.main-footer{
+  text-align: center;
+  background-color: lightgrey;
+}
+.cta-button {
+  background-color: transparent;
+  border: 3px solid lightgrey;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.cta-button: hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #000;
+}
+hr {
+  border: 1px solid #262626;
+}
+/*fonts*/
+h1 {
+  font-size: 28px;
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+h3 {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+}
+p {
+  margin-top: 20px;
+  color:#fff;
+}
+/*Container*/
+.center-text {
+  background-image:
+  width: 100%;
+}
+.about-container {
+  width: 100%;
+  padding: 50px;
+  margin: 0 auto;
+  background-image: url("../img/photo02.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+.fav-bkg {
+  background-color: lightgrey;
+  width: 100%;
+}
+#fav-links {
+  width: 70%;
+  padding: 50px;
+  margin: 0 auto;
+}
+.link-containers {
+  display: flex;
+  color: #fff;
+}
+.linksIcons {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+#divSocial {
+  width: 100%;
+  padding: 50px;
+}
+#divSocialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/*IMAGES*/
+.carousel-item, .active {
+  width: 1600px;
+  height: 800px;
+}
+
+
+#divSocialIcons {
+ text-align: center;
+}
+.logo {
+ vertical-align: middle;
+ padding-right: 10px;
+ height: 60px;
+ width: 60px
+}
+.profilePhoto {
+ display: block;
+ margin: 0 auto;
+ padding: 30px;
+}
+
+/*LINKS*/
+a:link {color: #ecf0f1;} /*UNVISITED LINK*/
+a:visited {color: #ecf0f1;} /*VISITED LINK*/
+a:hover {color: #ecf0f1;} /*MOUSE OVER LINK*/
+a:active {color: #ecf0f1;} /*SELECTED LINK*/
+
+@media (max-width: 800px) {
+ #nav {
+   height: 200px;
+ }
+ #navigation {
+   width: 100%;
+   display: inline-grid;
+   justify-content: center;
+   align-items: center;
+ }
+ .logo {
+   margin-bottom: 10px;
+   border-bottom: 1px solid #e2e2e2;
+ }
+ .main-banner {
+   margin-top: 0px;
+   background-image: url("../img/photo05.jpg");
+   background-position:center;
+   vertical-align: center;
+ }
+ .center-text {
+   width: 100%;
+   text-align: center;
+ }
+ .about-container {
+   width: 100%;
+   padding: 20px;
+   margin: 0 auto;
+   background-image:url("../img/photo06.jpg");
+ }
+ #fav-links {
+   width: 100%;
+   padding: 20px;
+   margin: 0 auto;
+ }
+ .fav-bkg {
+   padding-bottom: 30px;
+ }
+ .profilePhoto {
+   display: block;
+   margin: 0 auto;
+   width: 250px;
+ }
+ .link-containers {
+   display: block;
+ }
+ .linksIcons {
+   width: 0 auto;
+   padding: 0;
+   margin-top: 30px;
+   margin-bottom: 20px;
+ }
+}
